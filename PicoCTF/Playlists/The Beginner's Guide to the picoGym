@@ -1,18 +1,121 @@
-SECTION 1
+---SECTION 1
+
 -Obedient Cat
+Using Cat to Read a text file
 
 -Super SSH
+Using SSH to connect to server with the specified port number
+ssh user@server -p [port_number]
 
 -what's a net cat?
-
-SECTION 2
-
-
-SECTION 3
+Using nc(netcat) to connect to a proxy either a TCP or UDP Connection
+nc [proxy_name] [port_number]
 
 
-SECTION 4
+---SECTION 2 (CyberChef)
+
+-Mod 26
+Using ROT13 to decipher the flag given within a text file
+ROT13 a substitution cipher that replaces a letter with the 13th letter in the alphabit
+
+-Warmed Up
+Using Hex(Base16) value and Converting it to dec(Base10) value
+flag format is picoCTF{Answer}
+
+-2warm
+Using Dec(Base10) value and Converting it to Bin(Base2) value
+flag format is picoCTF{Answer}
+
+-Bases
+Using Base64 to decode a given Value
+
+---SECTION 3
+
+-Wave a flag
+Given a Binary Program , run it through the shell but first give it Execute permission with 
+Chmod +x [program_name]
+the run it with
+./[program_name]
 
 
-SECTION 5
+-Tab,Tab,Attack
+Given a Archive file (zip) and going through it to find the flag , the goal is to use 
+TabComplete to deal with long directory structures and filenames
+
+-Insp3ct0r
+Given website instance , and learning to inspect the website code within the browser 
+the key is to inspect HTML , JS , CSS to find 3 parts of the flag
+for JS and CSS use the Website URL and find their directory  within the webapp
+
+-strings it
+Given a Binary file , to learn how to use the strings command and extract printable strings :
+strings [Binary_file_name] > strings.txt
+#extract the strings and save to a txt file
+grep -i 'pico' strings.txt
+#then use grep to find the flag
+
+
+
+-First Grep
+Given a txt file with enormous amount of content , looking for the flag manually is inpractical
+the goal is to learn how to use Grep to find the flag , a very efficient and faster approach.
+
+
+-where are the robots
+given a website instance , the goal is to find the robots within the web app
+its a txt file (robots.txt) exist in the root directory of the website 
+and contains instructions on where would the visiting crawlers / web robots be allowed to go
+upon finding it go to the given portion of the website to find the flag
+
+
+
+
+---SECTION 4 (Python)
+
+-Python Wrangling
+Given a python script , the goal is to learn how to run it using 
+python [python_script.py] 
+and follow the instruction to find the flag, the key is to cat the python script to understand its functionallity
+
+
+-PW Crack 1
+Given a python script a password checker ,the goal is to use the encrypted flag file with to crack it and find the flag
+the key again is to cat it and figure out how it works
+
+
+-PW Crack 2
+
+-PW Crack 3
+
+-PW Crack 4
+
+-PW Crack 5
+
+
+---SECTION 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
