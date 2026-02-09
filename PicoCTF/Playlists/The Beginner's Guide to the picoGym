@@ -88,7 +88,10 @@ Given a python script to decode the given secret and find the flag ,but first we
 observing the script code by using txt editor or cat .
 
 -PW Crack 3
-
+Given a python script to decode the given secret and find the flag ,first by finding the password, this script uses
+the hash of the password you enter(md5 hash) and comparing it with the given correct hash to decode the encrypted flag,
+observe the python script to get clues on what is the correct password ,we find that we have 7 possibilities for the correct password ,
+finally by just brute forcing them i found the correct password.
 
 -PW Crack 4
 
